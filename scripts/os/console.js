@@ -177,7 +177,7 @@ function consoleGGO(msg)
 	DRAWING_CONTEXT.clearRect(0, 0, CANVAS.width, CANVAS.height);
 	DRAWING_CONTEXT.fillStyle = "#00FF00";
 	DRAWING_CONTEXT.fillRect(0, 0, DRAWING_CONTEXT.canvas.width, DRAWING_CONTEXT.canvas.height);
-	DRAWING_CONTEXT.drawText(this.CurrentFont, DEFAULT_FONT_SIZE, 0, DEFAULT_FONT_SIZE, "GANON'S GAME OVER" );
+	DRAWING_CONTEXT.drawText(this.CurrentFont, DEFAULT_FONT_SIZE, 0, DEFAULT_FONT_SIZE, "YOU WEREN'T FAST ENOUGH." );
 	DRAWING_CONTEXT.drawText(this.CurrentFont, DEFAULT_FONT_SIZE, 0, DEFAULT_FONT_SIZE * 3, msg );
 }
 

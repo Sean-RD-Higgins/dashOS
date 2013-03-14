@@ -11,8 +11,8 @@
 //
 // Global Constants
 //
-var APP_NAME = "ZELDA-BOS";  // Naming things after Zelda is cool XP
-var APP_VERSION = "0.4";
+var APP_NAME = "DASH-OS";  // The operating system needed an official title for the final assignment.
+var APP_VERSION = "0.5";
 
 var CPU_CLOCK_INTERVAL = 100;   // in ms, or milliseconds, so 1000 = 1 second.
 
